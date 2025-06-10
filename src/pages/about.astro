@@ -1,11 +1,11 @@
 ---
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../../src/styles/global.css'
 const pageTitle = "关于我";
 
 const identity = {
-  firstName: "成林",
+  firstName: "成霖",
   country: "中国",
   occupation: "前端工程师",
   hobbies: ["摄影", "阅读", "篮球"],
@@ -42,7 +42,7 @@ const textCasw = "uppercase";
     </style>
   </head>
   <body>
-    <Navigation />
+    <Header />
     <h1>{pageTitle}</h1>
     <h2>……和我的新 Astro 网站！</h2>
 
